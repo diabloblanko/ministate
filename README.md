@@ -19,6 +19,13 @@ Running is also very simple
 qemu-system-i386 -kernel ministate-1
 ```
 
+## What will be in next release?
+(✔ means done)
+- [] MinixFS support
+- [] Kernel panic
+- [] Tiny C Compiler port
+- [] Shell port
+- [x] Color output support
 ## Gallery
 ### MiniState 1:
 ![ee](https://i.ibb.co/X1TV8dC/minist.png)
