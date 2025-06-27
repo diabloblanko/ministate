@@ -20,6 +20,7 @@ qemu-system-i386 -kernel ministate-1
 ```
 
 ## What will be in next release?
+Planned release date: 27th june, 2025
 (✔ means done)
 - [] MinixFS support
 - [] Kernel panic
