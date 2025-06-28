@@ -23,7 +23,7 @@ qemu-system-i386 -kernel ministate-1
 Planned release date: 27th june, 2025
 (✔ means done)
 - [] MinixFS support
-- [] Kernel panic
+- [x] Kernel panic
 - [] Tiny C Compiler port
 - [] Shell port
 - [x] Color output support
