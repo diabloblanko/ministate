@@ -39,7 +39,7 @@ void kpanictest(); {
 	
 void kmain() {
 	setcolor(0x0A); // Kolor for kernel logs
-	putstr("MiniState v2-TEST.\n");
+	putstr("MiniState v2\n");
 	putstr("Kernel is starting default init.\n");
 	initmain(); }
 	//kpanic("Test", "Test", 1); }

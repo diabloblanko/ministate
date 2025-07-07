@@ -2,10 +2,9 @@
 void motd() {
 	setcolor(0x0F); // Change color to light gray
 	putstr("Copyright(c) 2025 DiabloBlanco\n");
-	putstr("MiniState v2-TEST\n");
+	putstr("MiniState v2\n");
 	putstr("MiniState is a multi-purpose kernel written by DiabloBlanco.\n");
 	putstr("Feel free to customize the kernel as you want! We only appreciate it!\n");
-	putstr("BUILDNOTE::This is test build. Kernel panic may appear, dont be scared.\n"); 
 	putstr("\n\n  -2025, DiabloBlanco\n\n"); }
 void colortest() {
 	setcolor(0x0A);
@@ -21,8 +20,8 @@ void colortest() {
 	setcolor(0x0F);
 	putstr("That's all.\n"); }
 int initmain() {
-	setcolor(0x0A); // green
-	putstr("INIT::MiniState Init v1-TEST\n");
+	setcolor(0x02); // green
+	putstr("INITLOG::Init just started\n");
 	putstr("I created it to make developers life easier.\n"); 
 	// putstr("Currently, its just a programm printing this text to screen.\n"); 
 	motd();
