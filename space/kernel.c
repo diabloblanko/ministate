@@ -5,8 +5,9 @@ void kmain(void) {
 	putstr("MiniState V1 greets you!\n");
 	putstr("MiniState is a 32-bit multi-purpose kernel written by DiabloBlanco\n");
 	putstr("Currently, it has these features:: A printf-like functions(putstr and putchar) and clear.\n");
-	putstr("In future, i would like to add installer, filesystem(probably zfs) init, libc, shell and minimal utils, like help\n");
+	putstr("In future, i want to port BASH and tcc.\n");
 	putstr(" -2025, DiabloBlanco.\n"); }
+
 
 /*Legacy code! Was used in very-very first version of MiniState.
 void kmain(void) {
