@@ -32,9 +32,10 @@ d stands for "driver"
 Every driver is in his own space, divided from each others.
 
 ## What will be in next release?
+Planned release date: 27th june, 2025
 (✔ means done)
 - [] MinixFS support
-- [] Kernel panic
+- [x] Kernel panic
 - [] Tiny C Compiler port
 - [] Shell port
 - [x] Color output support
