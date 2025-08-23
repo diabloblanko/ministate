@@ -3,7 +3,7 @@ BSD2-Licensed 32-bit monolithic(?) kernel.
 
 Feel free to contribute and suggesting me ideas using the "issues" page!
 We are looking for people that can provide binaries for *BSD/Solaris/ETC.
-![ministate-v2r]
+![ministate-v2r](https://i.ibb.co/hRt2c29q/2025-08-23-16-10.png)
 ## Dependencies
 * gcc(release is built with gcc 15.2.1 20250813)
 * nasm(release is built with 2.16.03 compiled on May 13 2025)
