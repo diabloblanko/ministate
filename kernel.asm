@@ -1,4 +1,4 @@
-// Some script that starts kernel
+; Some script that starts kernel
 bits 32
 section .text
 				;mbspec

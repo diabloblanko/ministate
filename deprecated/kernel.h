@@ -1,4 +1,6 @@
 // kernel.h
+// Copyright(c) 2025 DiabloBlanco
+// MiniState project, V3R
 // Headers for kernel.
 
 /* Macros marked with ! are disabled by default.

@@ -1,4 +1,6 @@
 // screen.c
+// Copyright(c) 2025 DiabloBlanco
+// MiniState project, V3R
 #include "screen.h"
 #include <stdint.h> 
 

@@ -1,4 +1,6 @@
 ; entry.asm
+; Copyright(c) 2025 DiabloBlanco
+; MiniState project, V2R
 bits 32             
 section .multiboot
     align 4

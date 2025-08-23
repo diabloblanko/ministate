@@ -1,6 +1,7 @@
 #include "screen.h"
 #include "kernel.h"
-#include ""
+// Copyright(c) 2025 DiabloBlanco
+// MiniState project, V3R
 void motd() { // By default, MOTD is disabled. Uncomment MOTD_ENABLED to enable it.
 	setcolor(0x0F); // Change color to light gray
 	putstr(""); }

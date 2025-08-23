@@ -1,3 +1,4 @@
+; Copyright(c) 2025 DiabloBlanco
 global outb
 outb:
 	mov dx, [esp + 4]

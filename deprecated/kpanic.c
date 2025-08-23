@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 void kpanic(const char* why, const char* where, int line) {
-  uint8_t prev_color = get_text_color();
+  	uint8_t prev_color = get_text_color();
 	setcolor("0x4F");
 	clears();
 	putstr("MiniState kernel panik!\n");
