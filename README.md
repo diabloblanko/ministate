@@ -21,7 +21,7 @@ Still unsure, would the name "MiniState" stay, dont have any ideas lol
 If you have any suggestions about name, pls open an issue!
 Maybe, i should create Ministate-based OS to provide basic tools for the kernel. Maintaining both kernel and a whole OS would be hard.
 Convert to 64-bit?
-## Version history(not required to read)
+## Version history
 V1 -> V1.1 -> V2 -> V2R
 IDK why there is no release of V1.1 on GitHub page, but it counts because of the note in panic.h: "Added in MiniState v1.1".
 ## Tools that is planned to be ported/created
@@ -30,6 +30,8 @@ IDK why there is no release of V1.1 on GitHub page, but it counts because of the
 * C compiler(TCC,?)(GCC is GPL-ed and CLang is too hard to port)
 * (maybe)DMD, D compiler. Would be a total headache to port.
 * Filesystem(EXT2,?)
+* Build system(self-written, ?)
+### Planned to be added in V3
 * MSH(Minimal shell). It would be easier to create a small shell with basic functions than porting a fatty BASH.
 * ANSI-Escape codes
 * SRBFetch(github.com/diabloblanko/srbfetch)
