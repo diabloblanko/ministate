@@ -1,12 +1,15 @@
 // Copyright(c) 2025 DiabloBlanco
-// MiniState project, V3R
+// MiniState project, V3
 #include "screen.h"
-// #include "init.c"
-
+//#include "kernel.h" // maybe in further versions
 void kmain() {
+	clears();
 	setcolor(0x0A); // Kolor for kernel logs
 	putstr("Copyright(c) 2025 DiabloBlanco\n");
-	putstr("MiniState kernel V2R\n");
+	putstr("MiniState kernel V3\n");
 	setcolor(0x07);
-	putstr("This string was written by DiabloBlanco in 23rd of August, 2025\n");
-	putstr("I will try supporting the acidentally-created tradition of making new releases every month. I will be busy most of the Fall and Winter, so maybe the releases will be every 2 months.\n"); }
+	putstr("If you see this message, piece of crap named MiniState works :D \n");
+	putstr("If you kinda enjoy this piece of crap, learn more about MS_OS("); 
+	setcolor(0x0E);
+	putstr("github.com/diabloblanko/ms_os\n");
+	setcolor(0x07); }
