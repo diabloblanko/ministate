@@ -5,8 +5,9 @@ Also, MiniState follows KISS.
 Feel free to contribute and suggesting me ideas using the "issues" page(github.com/diabloblanko/ministate/issues)!
 ![ministate-v3](https://i.ibb.co/gb2Zfxk9/basestate.png)
 ## Dependencies
-* clang(release is built with gcc 15.2.1 20250813)
-* nasm(release is built with 2.16.03)
+* clang
+* nasm
+* gnu ld
 ## Building
 ```
 chmod +x build.sh && ./build.sh
